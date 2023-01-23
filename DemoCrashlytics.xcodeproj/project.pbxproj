@@ -105,6 +105,7 @@
 				391A1EEB297E714D00A80E20 /* Sources */,
 				391A1EEC297E714D00A80E20 /* Frameworks */,
 				391A1EED297E714D00A80E20 /* Resources */,
+				391A1F08297E78EA00A80E20 /* Crashlytics */,
 				FBA73570EF9B6F38479E0155 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
@@ -164,6 +165,26 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		391A1F08297E78EA00A80E20 /* Crashlytics */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}",
+				"$(SRCROOT)/$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			name = Crashlytics;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/FirebaseCrashlytics/run\"\n";
+		};
 		6A6491FCF1C2C1DDCC1C3DFB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -360,7 +381,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 3266WF6C2V;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = C5554T55C5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DemoCrashlytics/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -389,7 +411,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 3266WF6C2V;
+				DEVELOPMENT_TEAM = C5554T55C5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DemoCrashlytics/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
