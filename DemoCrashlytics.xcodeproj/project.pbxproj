@@ -14,6 +14,7 @@
 		391A1EFA297E714D00A80E20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 391A1EF8297E714D00A80E20 /* Main.storyboard */; };
 		391A1EFC297E714F00A80E20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 391A1EFB297E714F00A80E20 /* Assets.xcassets */; };
 		391A1EFF297E714F00A80E20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 391A1EFD297E714F00A80E20 /* LaunchScreen.storyboard */; };
+		391A1F07297E76E800A80E20 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 391A1F06297E76E800A80E20 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		391A1EFB297E714F00A80E20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		391A1EFE297E714F00A80E20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		391A1F00297E714F00A80E20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		391A1F06297E76E800A80E20 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5F595774DF53198FD84728FD /* Pods-DemoCrashlytics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoCrashlytics.release.xcconfig"; path = "Target Support Files/Pods-DemoCrashlytics/Pods-DemoCrashlytics.release.xcconfig"; sourceTree = "<group>"; };
 		663851D890DD0B2C7882992A /* Pods_DemoCrashlytics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoCrashlytics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB225029FC21BDA42BD920B0 /* Pods-DemoCrashlytics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoCrashlytics.debug.xcconfig"; path = "Target Support Files/Pods-DemoCrashlytics/Pods-DemoCrashlytics.debug.xcconfig"; sourceTree = "<group>"; };
@@ -48,7 +50,6 @@
 				CB225029FC21BDA42BD920B0 /* Pods-DemoCrashlytics.debug.xcconfig */,
 				5F595774DF53198FD84728FD /* Pods-DemoCrashlytics.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -87,6 +88,7 @@
 				391A1EF8297E714D00A80E20 /* Main.storyboard */,
 				391A1EFB297E714F00A80E20 /* Assets.xcassets */,
 				391A1EFD297E714F00A80E20 /* LaunchScreen.storyboard */,
+				391A1F06297E76E800A80E20 /* GoogleService-Info.plist */,
 				391A1F00297E714F00A80E20 /* Info.plist */,
 			);
 			path = DemoCrashlytics;
@@ -153,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				391A1EFF297E714F00A80E20 /* LaunchScreen.storyboard in Resources */,
+				391A1F07297E76E800A80E20 /* GoogleService-Info.plist in Resources */,
 				391A1EFC297E714F00A80E20 /* Assets.xcassets in Resources */,
 				391A1EFA297E714D00A80E20 /* Main.storyboard in Resources */,
 			);
